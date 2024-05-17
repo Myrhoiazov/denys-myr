@@ -8,8 +8,6 @@ import { tgSendMessage } from 'shared/services/telegram';
 import Textarea from '../Textarea';
 import s from './Form.module.scss';
 
-const selectForms = ['Фото', 'Відео', 'Фото + Відео'];
-
 const Form = ({ className, title, onClose = '' }) => {
   const [name, setName] = useState('');
   const [tel, setTel] = useState('');
