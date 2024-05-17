@@ -1,0 +1,22 @@
+.Form {
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .btnWrapper {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+
+      border: 1px solid var(--cl-black);
+      transition: all var(--transition);
+
+      &:hover {
+        color: var(--white);
+        background-color: var(--cl-black);
+      }
+    }
+  }
+}

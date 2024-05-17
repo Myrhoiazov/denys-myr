@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
+:root {
+	--main-font: 'Montserrat', sans-serif;
+	--primary-font: 'Ametrine', sans-serif;
+	--brand-font: 'Bargemo', sans-serif;
+	--font-test: "El Messiri", sans-serif;
+
+	// --primary-text-color: #ffd5d5;
+	--primary-text-color: #ca973d;
+	--primary-color-light: #e8ca91;
+	--secondary-text-color: #1C4456;
+
+
+	--white: #fff;
+	--primary-bg-color: #021b26;
+	--secondary-bg-color: #026b56;
+
+	--active-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+
+	--transition: 0.3s ease-in-out;
+
+	--bg-color: #eeebe7;
+	--bg-color-accent: rgb(238, 235, 231);
+
+
+	// Clinic
+	--cl-primary-color: #917136;
+	--cl-secondary-color: #845c30;
+
+	--cl-grey: #ffffff8a;
+	--cl-black: #080707;
+
+}

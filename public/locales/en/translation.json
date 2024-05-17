@@ -1,0 +1,28 @@
+{
+  "Home": "Home",
+  "About me": "About me",
+  "Skills": "Skills",
+  "Portfolio": "Portfolio",
+  "Contact": "Contact",
+
+  "hero": {
+    "hello": "Hello!",
+    "hello-accent": "I'm",
+    "name": "Denys Myrhoiazov",
+    "text": "FrontEnd developer",
+    "country": "Ukraine"
+  },
+
+  "about": {
+    "title": "About me",
+    "text1": "Hi, I'm Denis – FrontEnd developer from Ukraine. I focus on HTML5, CSS3, JS, React.",
+    "text2": "Development, practice and work for the result are important for me. I intend to develop innovative technologies and deliver value to people. I have experience with implementation of both individual and team projects.",
+    "text3": "Ready to implement excellent projects with wonderful people."
+  },
+
+  "skills": {
+    "title": "Skills",
+    "text1": "Technologies in programming that I have studied and in the process of studying",
+    "text2": "Other technologies that I own."
+  }
+}

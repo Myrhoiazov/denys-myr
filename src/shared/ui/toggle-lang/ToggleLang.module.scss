@@ -1,0 +1,36 @@
+.btn_group {
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+}
+
+.btn_lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-size: 16px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+
+  transition: all 0.2s linear;
+
+  &:hover {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  &.active {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+}
+
+.active {
+  font-size: 18px;
+  font-weight: 600;
+}

@@ -1,0 +1,28 @@
+.TextareaWrapper {
+	margin-bottom: 20px;
+}
+
+.placeholder {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.textarea {
+	color: inherit;
+	display: block;
+	background: transparent;
+	border: 1px solid var(--grey);
+	outline: none;
+	padding: 20px;
+	height: 150px;
+	width: 100%;
+	resize: none;
+
+	&:focus {
+		outline: 1px solid var(--black);
+	}
+
+	&::placeholder {
+		color: inherit;
+	}
+}

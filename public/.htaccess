@@ -1,0 +1,16 @@
+Options -MultiViews
+RewriteEngine On
+
+# Если запрашиваемый файл не существует, то отправляем запрос к index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [QSA,L]
+
+# Пропускаем все запросы к API без обработки роутинга React
+RewriteRule ^api/.*$ - [PT]
+RewriteRule ^bots/.*$ - [PT]
+
+# Перенаправляем все остальные запросы к index.html для роутинга React
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [QSA,L]

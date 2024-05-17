@@ -1,0 +1,60 @@
+:root {
+	--font-family-main: verdana, geneva, tahoma, sans-serif;
+	--font-size-s: 14px;
+	--font-line-s: 20px;
+	--font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-main);
+	--font-size-m: 16px;
+	--font-line-m: 24px;
+	--font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+	--font-size-l: 24px;
+	--font-line-l: 32px;
+	--font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+	--font-size-xl: 32px;
+	--font-line-xl: 40px;
+	--font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+	--font-size-xxl: 40px;
+	--font-line-xxl: 48px;
+	--font-xxl: var(--font-size-xxl) / var(--font-line-xxl) var(--font-family-main);
+
+	// Sizes:
+	--navbar-height: 50px;
+	--sidebar-width: 300px;
+	--sidebar-width-collapsed: 80px;
+
+	// Colors:
+	--overlay-color: rgba(0, 0, 0, 0.6);
+	--red-light: #ff00;
+	--red-dark: #ce0505;
+	--grey_l: #f0f0f0;
+	--grey: #c4c4c4;
+	--grey_d: #8e8e8e;
+	--black: #000;
+	--white: #e8eae9;
+	--bg-color: #E9E6E2;
+	--bg-color-accent2: #1c1b20;
+
+
+	--primary-color: #f9f055;
+	--secondary-color: #de03de;
+
+	// Box-shadow:
+	--shadow-base: 0px 1px 7px rgba(0, 0, 0, 0.25);
+	--shadow-accent: rgba(159, 160, 162, 0.5) 0px 8px 24px;
+
+	// Transition:
+	--transition: .3s ease-in-out;
+
+	// Z-Index:
+	--modal-x-index: 10;
+
+	// Border-Radius:
+	--radius-s: 4px;
+	--radius-m: 8px;
+	--radius-l: 12px;
+	--radius-xl: 20px;
+	--radius-xxl: 35px;
+	--radius-circle: 50%;
+
+
+
+}

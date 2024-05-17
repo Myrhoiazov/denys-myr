@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.sidebar {
+  &-wrapper {
+    @media screen and (max-height: 520px) {
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+  }
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--main-container-bg);
+    box-shadow: var(--container-shadow);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition: width 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  &-themeInput {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+  }
+
+  &-themeType {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-themeLabel {
+    position: relative;
+    cursor: pointer;
+
+    svg {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
